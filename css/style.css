@@ -1,0 +1,17 @@
+.navbar-brand {
+  background-color: rgb(4, 124, 133);
+}
+
+body {
+  background-image: url("../assets/pattern.jpg");
+  color: white;
+  font-family: "Acme", sans-serif;
+}
+
+.fixed-bottom {
+  width: 100%;
+  background-color: white;
+  color: rgb(0, 161, 161);
+  text-align: center;
+}
+
