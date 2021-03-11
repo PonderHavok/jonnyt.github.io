@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Jonny T, At you service!</title>
+    <title>Jonny's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link
       rel="stylesheet"
@@ -21,80 +21,123 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a style="color: White" class="navbar-brand" href="#">Jonathen Talbott</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html"
-              >About<span class="sr-only">(current)</span></a
+    <main>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a style="color: black" class="lead" href="#">Jonathen Talbott</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"
+                  >About<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <div class="col-sm-6 pt-4">
+        <div class="card border-info">
+          <h4 class="pt-3 card-header text-center text-info">Daily Planner</h4>
+          <p class="text-center card-body text-info">
+            A daily planner which allows you to map out every hour of your day.
+            Update, Save, Delete, full control of your life
+          </p>
+          <a href="https://ponderhavok.github.io/dailyworksched/">
+            <img
+              class="card-img-bottom"
+              src="./assets/dailyPlanner.png"
+              alt="dailyPlanner"
+            />
+          </a>
+          <a href="https://github.com/PonderHavok/dailyworksched"
+            >Check out the Repository</a
+          >
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 pt-4">
+          <div class="border-info card">
+            <h4 class="pt-3 card-header text-center text-info">
+              Generate a Unique Password
+            </h4>
+            <p class="text-center card-body text-info">
+              Follow the prompts to have a completely unique password generated
+              for you.
+            </p>
+            <a href="https://ponderhavok.github.io/genpassapp/">
+              <img
+                class="card-img-bottom"
+                src="./assets/passwordGen.png"
+                alt="generate password"
+              />
+            </a>
+            <a href="https://github.com/PonderHavok/genpassapp"
+              >Check out the Repository</a
             >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <main class="container">
-      <div class="row">
-        <div class=".col-12 .col-sm-12 col-md-12 .col-lg-12">
-          <header class="page-header">
-            <h1>Portfolio</h1>
-          </header>
-        </div>
-      </div>
-      <div class="row">
-        <div class=".col-8 .col-sm-6 col-md-4 .col-lg-3 .img-fluid">
-          <img
-            src="assets/dod.png"
-            alt="Dawn of Dads code"
-            class="img-thumbnail"
-            />
-        </div>
-        <div class=".col-4 .col-sm-4 col-md-4 .col-lg-3 .img-fluid">
-          <img src="assets/css.png" alt="css code" class="img-thumbnail" />
-        </div>
-      </div>
-        <div class="row">
-          <div class=".col-8 .col-sm-6 col-md-4 .col-lg-3 .img-fluid">
-            <img
-              src="assets/fanpg.png"
-              alt="prework fan code"
-              class="img-thumbnail"
-            />
-          </div>
-          <div class=".col-4 .col-sm-4 col-md-4 .col-lg-3 .img-fluid">
-            <img
-              src="assets/portflio.png"
-              alt="portfolio code"
-              class="img-thumbnail"
-            />
           </div>
         </div>
-      </main>
+      </div>
 
-      <footer class="fixed-bottom">
-        <h1>Thanks for stopping by. See you real soon.</h1>
-      </footer>
+      <div class="row">
+        <div class="col-sm-6 pt-4">
+          <div class="card border-info">
+            <h4 class="pt-3 card-header text-center text-info">Recipes4Me</h4>
+            <p class="text-center card-body text-info">
+              A One stop shop for saving all your favorite recipes across the
+              web.
+            </p>
+            <a href="https://sfunk11.github.io/recipes4me/">
+              <img
+                class="card-img-bottom"
+                src="./assets/Recipe4me.png"
+                alt="Recipes4Me"
+              />
+            </a>
+            <a href="https://github.com/PonderHavok/recipes4me"
+              >Check out the Repository</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
 
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </body>
+    <footer class="fixed-bottom">
+      <p>Thanks for stopping by. See you real soon.</p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
