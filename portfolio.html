@@ -21,60 +21,70 @@
   </head>
 
   <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a style="color: black" class="lead" href="#">Jonathen Talbott</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >About<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <main>
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a style="color: black" class="lead" href="#">Jonathen Talbott</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html"
-                  >About<span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+      <div class="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <header class="content-header" style="height:20%">
+              <h2>Portfolio - *click image to view deployed project</h2>
+                </header>
+              </div>
+            </div>
+        <div class="row">
+        <div class="col-sm pt-4">
+          <div class="card border-info">
+            <h4 class="pt-3 card-header text-center text-info">Daily Planner</h4>
+            <p class="text-center card-body text-info">
+              A daily planner which allows you to map out every hour of your day.
+              Update, Save, Delete, full control of your life
+            </p>
+            <a href="https://ponderhavok.github.io/dailyworksched/" >
+              <img
+                class="card-img-bottom"
+                src="./assets/dailyPlanner.png"
+                alt="dailyPlanner"
+              />
+            </a>
+            <a href="https://github.com/PonderHavok/dailyworksched" style="color: white;"
+              >Check out the Repository</a
+            >
           </div>
-        </nav>
-      </header>
-
-      <div class="col-sm-6 pt-4">
-        <div class="card border-info">
-          <h4 class="pt-3 card-header text-center text-info">Daily Planner</h4>
-          <p class="text-center card-body text-info">
-            A daily planner which allows you to map out every hour of your day.
-            Update, Save, Delete, full control of your life
-          </p>
-          <a href="https://ponderhavok.github.io/dailyworksched/">
-            <img
-              class="card-img-bottom"
-              src="./assets/dailyPlanner.png"
-              alt="dailyPlanner"
-            />
-          </a>
-          <a href="https://github.com/PonderHavok/dailyworksched"
-            >Check out the Repository</a
-          >
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6 pt-4">
+        <div class="col-sm pt-4">
           <div class="border-info card">
             <h4 class="pt-3 card-header text-center text-info">
               Generate a Unique Password
@@ -90,7 +100,7 @@
                 alt="generate password"
               />
             </a>
-            <a href="https://github.com/PonderHavok/genpassapp"
+            <a href="https://github.com/PonderHavok/genpassapp" style="color: white;"
               >Check out the Repository</a
             >
           </div>
@@ -98,7 +108,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-6 pt-4">
+        <div class="col-sm">
           <div class="card border-info">
             <h4 class="pt-3 card-header text-center text-info">Recipes4Me</h4>
             <p class="text-center card-body text-info">
@@ -112,7 +122,66 @@
                 alt="Recipes4Me"
               />
             </a>
-            <a href="https://github.com/PonderHavok/recipes4me"
+            <a href="https://github.com/PonderHavok/recipes4me" style="color: white;"
+              >Check out the Repository</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="card border-info">
+            <h4 class="pt-3 card-header text-center text-info">Burger App</h4>
+            <p class="text-center card-body text-info">
+              A full stack logging application that adds and updates to a DB.
+            </p>
+            <a href="https://mysterious-forest-40009.herokuapp.com/">
+              <img
+                class="card-img-bottom"
+                src="./assets/burger.png"
+                alt="burgerApp"
+              />
+            </a>
+            <a href="https://github.com/PonderHavok/order-up"
+              >Check out the Repository</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="card border-info">
+            <h4 class="pt-3 card-header text-center text-info">GameHaven</h4>
+            <p class="text-center card-body text-info">
+              A web page where the user can store and edit their reviews of gaming. As well as see other users reviews of games
+            </p>
+            <a href="https://gaming-dashboard.herokuapp.com/">
+              <img
+                class="card-img-bottom"
+                src="./assets/game.png"
+                alt="gameHaven"
+              />
+            </a>
+            <a href="https://github.com/PonderHavok/gaming-dashboard"
+              >Check out the Repository</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="card border-info">
+            <h4 class="pt-3 card-header text-center text-info">Weather App</h4>
+            <p class="text-center card-body text-info">
+              A Webapp that allows you to check the current weather and 5 day forecast for cities around the world.
+            </p>
+            <a href="https://ponderhavok.github.io/howstheweather/">
+              <img
+                class="card-img-bottom"
+                src="./assets/weather.png"
+                alt="weatherApp"
+              />
+            </a>
+            <a href="https://github.com/PonderHavok/howstheweather"
               >Check out the Repository</a
             >
           </div>

@@ -1,7 +1,7 @@
 
 
 body {
-  background-image: url("../assets/pattern.jpg");
+  background: url("../assets/pattern.jpg") no-repeat center fixed;
   color: white;
   font-family: "Acme", sans-serif;
 }
@@ -17,5 +17,16 @@ body {
 
 .card {
   margin-bottom: 5%;
+  height: 500px;
+  width: 700px;
+  
+}
+
+.content-header {
+  margin: 50px;
+  color: rgb(237, 237, 237);
+  text-align: center;
+  height: 500px;
+  width: 700px;
 }
 
